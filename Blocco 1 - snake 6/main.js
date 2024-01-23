@@ -3,7 +3,12 @@
 // 
 
 
-const numeri = ["1"** 3,"2"** 3,"3"** 3,"4"** 3,"5"** 3,"6"** 3,"7"** 3,"8"** 3,"9"** 3,"10"** 3,]
+const N = 10;
+
+const numeri = [];
+for (let i = 1; i <= N; i++) {
+    numeri.push(i ** 3);
+}
 
 let nUtente = prompt("scrivi un numero")
 

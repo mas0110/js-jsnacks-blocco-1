@@ -20,7 +20,9 @@ let numero8 = +prompt("inserisci l'ottavo numero")
 
 let numero9 = +prompt("inserisci il nono numero")
 
-let numero10 =+ prompt("inserisci il decimo numero")
+let numero10 = +prompt("inserisci il decimo numero")
 
 
 alert(numero1 + numero2 + numero3 +numero4 + numero5 + numero6 +numero7 + numero8 + numero9 + numero10)
+// 
+// console.log(numero1)
